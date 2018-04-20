@@ -29,7 +29,7 @@ public class ParsePrometheusResponseTestCase {
             pr = new PrometheusResponse(sb.toString());
         }
 
-        assertEquals(68047,pr.getSource().length());
+        assertEquals(68598,pr.getSource().length());
 
         Set<String> metrics = pr.getMetrics().keySet();
         assertFalse(metrics.isEmpty());

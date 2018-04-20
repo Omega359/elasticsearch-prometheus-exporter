@@ -28,16 +28,16 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <elasticsearch.version>2.4.6</elasticsearch.version>
+        <elasticsearch.version>2.3.3</elasticsearch.version>
         <!--
           Whenever you change Elasticsearch version verify and update Lucene version as well.
           Why? Because ES integration test support is based on Lucene randomized testing framework.
           https://www.elastic.co/guide/en/elasticsearch/reference/2.4/why-randomized-testing.html
         -->
-        <lucene.version>5.5.4</lucene.version>
-        <maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
+        <lucene.version>5.5.0</lucene.version>
+        <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <prometheus.simpleclient.version>0.0.26</prometheus.simpleclient.version>
+        <prometheus.simpleclient.version>0.3.0</prometheus.simpleclient.version>
     </properties>
 
     <dependencies>
